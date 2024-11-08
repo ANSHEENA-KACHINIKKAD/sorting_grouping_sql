@@ -40,6 +40,29 @@ Persons
 
 ![Screenshot (182)](https://github.com/user-attachments/assets/95264d1d-2a43-48ee-b6b5-e8c44f80d7c1)
 
+## Key Points
+* COUNT(*): Counts the number of rows.
+* SUM(column_name): Calculates the sum of values in a column.
+* AVG(column_name): Calculates the average of values in a column.
+* MIN(column_name): Finds the minimum value in a column.
+* MAX(column_name): Finds the maximum value in a column.
+* Concat(column_name1,column_name2); to concatenate two columns
+* ORDER BY :ORDER BY clause is used to sort the result set in ascending or descending order.
+   syntax = SELECT column1, column2, ...
+            FROM table_name
+            ORDER BY column_name   
+            ASC/DESC;
+* GROUP BY :GROUP BY clause is used to group rows based on one or more columns. It's often used with aggregate functions like COUNT, SUM, AVG, MIN, and MAX.
+   syntax = SELECT column1, aggregate_function(column2)
+            FROM table_name
+            GROUP BY column1;
+* ORDER BY and GROUP BY:combine ORDER BY and GROUP BY to sort the grouped results.
+   syntax = SELECT country, AVG(age) AS average_age
+            FROM customers
+            GROUP BY country
+            ORDER BY average_age DESC;
+  
+
 
 
 
