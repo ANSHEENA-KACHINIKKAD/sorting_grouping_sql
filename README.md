@@ -10,7 +10,7 @@ Creation of table and perform sql sorting , grouping and order operations.
 
 3.Write an SQL query to count the number of unique country names from Persons table.
 
-4. Write a query to print the maximum population from the Country table.
+4.Write a query to print the maximum population from the Country table.
 
 5. Write a query to print the minimum population from Persons table.
 
