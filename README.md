@@ -33,9 +33,11 @@ Creation of table and perform sql sorting , grouping and order operations.
 ## Tables
 
 Country
+
 ![Screenshot (183)](https://github.com/user-attachments/assets/26128b19-8bc4-4156-8bcb-089c0e169caa)
 
 Persons
+
 ![Screenshot (182)](https://github.com/user-attachments/assets/95264d1d-2a43-48ee-b6b5-e8c44f80d7c1)
 
 
